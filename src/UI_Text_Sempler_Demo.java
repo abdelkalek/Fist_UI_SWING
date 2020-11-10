@@ -18,6 +18,7 @@ public class UI_Text_Sempler_Demo extends JFrame {
     {
         setContentPane(MainPanel);
         setTitle("First java swing ui");
+        setResizable(false);
         setVisible(true);
         pack();
         Txt_1.addKeyListener(new KeyAdapter() {
